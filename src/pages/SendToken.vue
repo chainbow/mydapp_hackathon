@@ -117,7 +117,7 @@ export default {
         console.log(decimals)
 
         let result = await contractInstance.methods.transfer(this.toAddress,
-          (this.inputTokenAmount * (10 ** 18)).toString())
+          (this.inputTokenAmount * (10 ** decimals)).toString())
           .send({
             from: this.account
           }).on('error', async (err) => {

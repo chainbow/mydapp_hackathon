@@ -49,6 +49,26 @@
           <q-item-side icon="school" />
           <q-item-main label="SendTransaction" sublabel="SendTransaction" />
         </q-item>
+        <q-item to="/getCBB">
+          <q-item-side icon="school" />
+          <q-item-main label="getCBB" sublabel="getCBB" />
+        </q-item>
+        <q-item to="/sellToken">
+          <q-item-side icon="school" />
+          <q-item-main label="1.发布页面" sublabel="卖币，出品" />
+        </q-item>
+        <q-item to="/auctionList">
+          <q-item-side icon="school" />
+          <q-item-main label="2.挂单列表页面" sublabel="显示挂单一览" />
+        </q-item>
+        <q-item to="/auctionDetail">
+          <q-item-side icon="school" />
+          <q-item-main label="3.挂单详细页面" sublabel="显示挂单详细" />
+        </q-item>
+        <q-item to="/adminPage">
+          <q-item-side icon="school" />
+          <q-item-main label="4.管理员页面" sublabel="管理员的页面" />
+        </q-item>
       </q-list>
     </q-layout-drawer>
 

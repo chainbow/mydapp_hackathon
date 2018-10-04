@@ -15,7 +15,9 @@
     "test": "./node_modules/.bin/truffle test",
     "lint": "eslint --ext .js,.vue src --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "websocket": "^1.0.28"
+  },
   "devDependencies": {
     "truffle": "*",
     "truffle-privatekey-provider": "*",
